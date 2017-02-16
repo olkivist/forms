@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Contact</title>
+</head>
+
+<body>
+  <div class="container">
+    <form id="myform" name="theform" action="" method="POST">
+      <h1>Register</h1><hr>
+        
+        <label>Name *  </label> <p id="mynamehint"></p>
+        <input class="form-control" type="text" name="myname" id="myname" placeholder="Last, First" value=""><br>
+        
+        <label>Email *</label> <p id="emailhint"></p>
+        <input class="form-control" type="email" name="email" id="inputEmail" placeholder="Email" value=""><br>
+
+        <label>Phone</label> <p id="phonehint"></p>
+        <input class="form-control" type="text" name="phone" id="phone" placeholder="xxx xxxxxxx" value=""><br>
+
+        <label>Website</label> <p id="urlhint"></p>
+        <input class="form-control" type="text" name="url" id="url" placeholder="http://" value=""><br>
+        
+        <label class="" for="">How do you like this form?</label>
+        <select class="form-control" name="discovery-method" id="selectSite" placeholder="How did you find this site?" value="">
+          <option class="form"></option>
+          <option>It's nice</option>
+          <option>Something is missing..</option>
+          <option>Other..</option>
+        </select><br>
+
+        <label>Gender</label><br>
+          
+        <input type="radio" name="gender" value="male">
+        <label for="radio">Male</label>
+
+        <input type="radio" name="gender" value="female">
+        <label for="radio">Female</label>
+        <br>
+
+        <textarea class="form-control" name="comment-text" id="inputComments" placeholder="Comments.."></textarea><br>
+
+        <input id="terms" name="terms" type="checkbox">
+        <label class="">I agree on whatever terms you want me to agree on</label><br>
+
+        <input class="btn btn-default" id="submit-btn" name="submit" role="button" value="submit" type="submit">
+    </form>
+  </div>
+
+</body>
+</html>
