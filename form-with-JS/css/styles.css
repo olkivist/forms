@@ -1,0 +1,35 @@
+body {
+
+  font-size: 2em times;
+
+}
+
+form {
+  padding-right: 25%;
+  padding-left: 25%;
+  padding-bottom: 5%;
+}
+
+/* phonemode < 768px */
+@media screen and (max-width: 767px) {
+
+  body {
+    margin-top: 0px;
+    background: lightblue;
+    background: cover;
+  }
+
+  form {
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+  }
+
+}
+
+.container {
+    margin-top: 20px;
+    background: lightblue;
+    
+  }
+
